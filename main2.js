@@ -4,29 +4,29 @@ Write a function that parses through the below object and displays all of their
 favorite food dishes as shown:
 */
 
-// let person3 = {
-//     pizza:["Deep Dish","South Side Thin Crust"],
-//     tacos:"Anything not from Taco bell",
-//     burgers:"Portillos Burgers",
-//     ice_cream:["Chocolate","Vanilla","Oreo"],
-//     shakes:[{
-//         oberwise:"Chocolate",
-//         dunkin:"Vanilla",
-//         culvers:"All of them",
-//         mcDonalds:"Sham-rock-shake",
-//         cupids_candies:"Chocolate Malt"
-//     }]
-// };
-// let keys = Object.keys(person3)
-// let val = Object.values(person3['shakes'][0])
-// let val1 = Object.values(person3)
+let person3 = {
+    pizza:["Deep Dish","South Side Thin Crust"],
+    tacos:"Anything not from Taco bell",
+    burgers:"Portillos Burgers",
+    ice_cream:["Chocolate","Vanilla","Oreo"],
+    shakes:[{
+        oberwise:"Chocolate",
+        dunkin:"Vanilla",
+        culvers:"All of them",
+        mcDonalds:"Sham-rock-shake",
+        cupids_candies:"Chocolate Malt"
+    }]
+};
+let keys = Object.keys(person3)
+let val = Object.values(person3['shakes'][0])
+let val1 = Object.values(person3)
 
 
 
 
-// val1.forEach((val1) => {
-//     console.log(` ${val1}`)
-// });
+val1.forEach((val1) => {
+    console.log(` ${val1}`)
+});
 
 
 
